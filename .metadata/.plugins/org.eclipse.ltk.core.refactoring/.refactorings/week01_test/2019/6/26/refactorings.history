@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;obj&apos; from expression &apos;new Object1()&apos;&#x0D;&#x0A;- Original project: &apos;week01_test&apos;&#x0D;&#x0A;- Variable name: &apos;obj&apos;&#x0D;&#x0A;- Destination method: &apos;week01_test.Test01.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;new Object1()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;obj&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;week01_test{Test01.java" name="obj" replace="true" selection="122 0" stamp="1561532379399" varType="false" version="1.0"/>
+</session>

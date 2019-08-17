@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;s&apos; from expression &apos;line.trim()&apos;&#x0D;&#x0A;- Original project: &apos;day1503_文本文件按行读写&apos;&#x0D;&#x0A;- Variable name: &apos;s&apos;&#x0D;&#x0A;- Destination method: &apos;day1503.Test1.f1()&apos;&#x0D;&#x0A;- Variable expression: &apos;line.trim()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;s&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;day1503{Test1.java" name="s" replace="true" selection="785 11" stamp="1555904990631" varType="false" version="1.0"/>
+</session>

@@ -1,0 +1,25 @@
+package week01_test;
+
+public class Test01 {
+	public static void main(String[] args) {
+		char a = 27426;
+		char b = 36814;
+		char c = 26469;
+		char d = 21040;
+		char e = 36798;
+		char f = 20869;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+
+//		27426
+//		36814
+//		26469
+//		21040
+//		36798
+//		20869
+	}
+}

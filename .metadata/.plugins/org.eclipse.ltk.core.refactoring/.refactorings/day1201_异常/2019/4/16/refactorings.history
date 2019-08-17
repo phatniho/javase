@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;e&apos; from expression &apos;new ArithmeticException()&apos;&#x0D;&#x0A;- Original project: &apos;day1201_异常&apos;&#x0D;&#x0A;- Variable name: &apos;e&apos;&#x0D;&#x0A;- Destination method: &apos;day12.Test2.divide()&apos;&#x0D;&#x0A;- Variable expression: &apos;new ArithmeticException()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;e&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;day12{Test2.java" name="e" replace="true" selection="506 0" stamp="1555468190281" version="1.0"/>
+</session>

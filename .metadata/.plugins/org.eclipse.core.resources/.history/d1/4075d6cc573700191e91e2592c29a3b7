@@ -1,0 +1,45 @@
+package day0305;
+
+import java.util.Scanner;
+
+/*
+ * 需求：鸡兔同笼
+ * 鸡兔同笼，上有35头，下有94脚，求鸡兔各几只。
+ * 分析：穷举法求解
+ * 鸡兔共35只，鸡从0开始算，兔从35开始算。
+ * 分别算每一种组合的脚是不是94只，如果是，则输出打印结果。
+ */
+public class Test1 {
+	public static void main(String[] args) {
+		System.out.print("请输入头的数量");
+		int h = new Scanner(System.in).nextInt();
+		System.out.print("请输入脚的数量");
+		int f = new Scanner(System.in).nextInt();
+		f(h, f);
+	}
+
+	private static void f(int h, int f) {
+		for (int j = 0, t = h; j <= h; j++, t--) {
+			int i = j * 2 + t * 4;
+			int count = 0;
+			if (i == f) {
+				System.out.println("鸡有" + j + "只，兔有" + t + "只。");
+				count++;
+			}
+			if (count == 0) {
+				System.out.println("没有满足条件的组合。");
+			} else {
+				System.out.println("一共有" + count + "种满足条件的组合");
+			}
+		}
+	}
+
+	private static void f() {
+		for (int j = 0, t = 35; j <= 35; j++, t--) {
+			int f = j * 2 + t * 4;
+			if (f == 94) {
+				System.out.println("鸡有" + j + "只，兔有" + t + "只。");
+			}
+		}
+	}
+}

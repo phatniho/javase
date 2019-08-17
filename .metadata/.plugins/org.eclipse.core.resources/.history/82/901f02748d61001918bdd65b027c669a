@@ -1,0 +1,15 @@
+package day1303;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class Test1 {
+	public static void main(String[] args) throws Exception {
+		FileOutputStream fos = new FileOutputStream("d:/abc/f2");// 写出到硬盘
+		fos.write(97);
+		fos.write(98);
+		fos.write(99);
+		fos.write(100);
+		FileInputStream fis = new FileInputStream("d:/abc/f2");// 读入到内存
+	}
+}

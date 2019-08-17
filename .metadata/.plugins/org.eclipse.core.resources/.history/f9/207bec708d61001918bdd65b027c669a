@@ -1,0 +1,12 @@
+package day1303;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class Test1 {
+	public static void main(String[] args) {
+		FileOutputStream fos = new FileOutputStream("d:/abc/f2");
+
+		FileInputStream fis = new FileInputStream("d:/abc/f2");
+	}
+}

@@ -1,0 +1,39 @@
+package day0601;
+
+import java.util.Random;
+
+/*
+ * 需求：英雄类
+ * 属性：
+ * 编号id：
+ * 攻击attack：
+ * 防御defence：
+ * 速度speed：
+ * 血量blood：
+ * 
+ */
+public class Hero {
+	String name;
+	int attack;
+	int defence;
+	int speed;
+	int blood;
+
+	public Hero(String name) {
+		this.name = name;
+		this.attack = 60 + new Random().nextInt(40);
+		this.defence = 60 + new Random().nextInt(40);
+		this.speed = 60 + new Random().nextInt(40);
+		this.blood = 60 + new Random().nextInt(40);
+	}
+
+	public void show() {
+		System.out.println("英雄属性：");
+		System.out.println("称号：" + this.name);
+		int[] a = new int[4];
+		a[0] = this.attack;
+		a[1] = this.defence;
+		a[2] = this.speed;
+		a[3] = this.blood;
+	}
+}

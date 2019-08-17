@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;l&apos; from expression &apos;new Random().nextInt(4)&apos;&#x0D;&#x0A;- Original project: &apos;day0901_图形形状&apos;&#x0D;&#x0A;- Variable name: &apos;l&apos;&#x0D;&#x0A;- Destination method: &apos;day0901.Test1.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;new Random().nextInt(4)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;l&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;day0901{Test1.java" name="l" replace="true" selection="213 0" stamp="1555033895510" version="1.0"/>
+</session>

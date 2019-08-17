@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;c&apos; in &apos;day0806.Test1.getRed(...)&apos; to &apos;j&apos;&#x0D;&#x0A;- Original project: &apos;day0806_双色球&apos;&#x0D;&#x0A;- Original element: &apos;day0806.Test1.getRed(int[]).c&apos;&#x0D;&#x0A;- Renamed element: &apos;c&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;c&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;day0806{Test1.java[Test1~getRed~\[I@c!542!582!546!546!I!0!false" name="j" references="true" stamp="1554974620419" version="1.0"/>
+</session>

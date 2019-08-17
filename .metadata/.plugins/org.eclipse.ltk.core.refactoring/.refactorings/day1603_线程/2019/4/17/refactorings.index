@@ -1,0 +1,3 @@
+1556007756448	Rename local variable 's'
+1556010384615	Extract method 'ifFull'
+1556010409339	Extract method 'isEmpty'

@@ -1,0 +1,26 @@
+package week01_test;
+
+public class Test01 {
+	int i = 25;
+
+	public static void main(String[] args) {
+		Object1 obj = new Object1();
+		{
+			int i = 5;
+			}
+		{
+			int i = 10;
+			{
+				int i = 100;
+				System.out.println(i);
+				System.out.println(obj.i);
+			}
+			}
+
+	public void Object1() {
+		int i = 1;
+		System.out.println(i);
+	}
+
+}
+}

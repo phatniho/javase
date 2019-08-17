@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;s&apos; from expression &apos;items[i]&apos;&#x0D;&#x0A;- Original project: &apos;day0503_商品录入查询&apos;&#x0D;&#x0A;- Variable name: &apos;s&apos;&#x0D;&#x0A;- Destination method: &apos;day0503.Test1.f4()&apos;&#x0D;&#x0A;- Variable expression: &apos;items[i]&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;s&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;day0503{Test1.java" name="s" replace="true" selection="2597 8" stamp="1554715121859" version="1.0"/>
+</session>

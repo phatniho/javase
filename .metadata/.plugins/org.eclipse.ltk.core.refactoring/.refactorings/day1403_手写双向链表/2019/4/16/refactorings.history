@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;d&apos; in &apos;day1403.MyList.add(...)&apos; to &apos;n&apos;&#x0D;&#x0A;- Original project: &apos;day1403_手写双向链表&apos;&#x0D;&#x0A;- Original element: &apos;day1403.MyList.add(Object).d&apos;&#x0D;&#x0A;- Renamed element: &apos;d&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;d&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;day1403{MyList.java[MyList~add~QObject;@d!254!273!259!259!QNode;!0!false" name="n" references="true" stamp="1555646019112" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+package week01_test;
+
+public class Test01 {
+	public static void main(String[] args) {
+		char a = 27426;
+		System.out.println(a);
+
+//		27426
+//		36814
+//		26469
+//		21040
+//		36798
+//		20869
+	}
+}

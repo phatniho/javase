@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;sb&apos; from expression &apos;new StringBuffer()&apos;&#x0D;&#x0A;- Original project: &apos;week02_test&apos;&#x0D;&#x0A;- Variable name: &apos;sb&apos;&#x0D;&#x0A;- Destination method: &apos;week02_test.TestListSet.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;new StringBuffer()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;sb&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;week02_test{TestListSet.java" name="sb" replace="true" selection="115 0" stamp="1556533990333" varType="false" version="1.0"/>
+</session>

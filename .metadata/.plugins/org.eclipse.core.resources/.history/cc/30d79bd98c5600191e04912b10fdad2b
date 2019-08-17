@@ -1,0 +1,38 @@
+package day0404;
+
+import java.util.Random;
+import java.util.Scanner;
+
+/*
+ * 需求：猜数字
+ * 已经产生路一个[1,1001)范围的整数
+ * 请猜猜这个数字是几
+ * 
+ * 猜:1
+ * 小（继续）
+ * 猜:999
+ * 大（继续）
+ * 猜:455
+ * 对（结束）
+ */
+public class Test1 {
+	public static void main(String[] args) {
+		int i = 1 + new Random().nextInt(1000);
+		System.out.println("已经产生路一个[1,1001)范围的整数");
+		System.out.println("请猜猜这个数字是几");
+		int b = new Scanner(System.in).nextInt();
+		while (true) {
+			System.out.print("猜：");
+			if (i > b) {
+				System.out.println("小");
+				continue;
+			}
+			if (i < b) {
+				System.out.println("大");
+				continue;
+			}
+			System.out.println("中");
+			break;
+		}
+	}
+}

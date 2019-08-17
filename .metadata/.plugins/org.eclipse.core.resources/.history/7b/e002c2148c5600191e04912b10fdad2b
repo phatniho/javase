@@ -1,0 +1,21 @@
+package day0404;
+
+import java.util.Random;
+
+/*
+ * 需求：猜数字
+ * 已经产生路一个[1,1000)范围的整数
+ * 请猜猜这个数字是几
+ * 
+ * 猜:1
+ * 小（继续）
+ * 猜:999
+ * 大（继续）
+ * 猜:455
+ * 对（结束）
+ */
+public class Test1 {
+	public static void main(String[] args) {
+		int i = 1 + new Random().nextInt(1000);
+	}
+}

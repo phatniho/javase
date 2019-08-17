@@ -1,0 +1,22 @@
+package day1303;
+
+import java.io.FileInputStream;
+
+public class Test2 {
+	public static void main(String[] args) throws Exception {
+		FileInputStream fis = new FileInputStream("d:/abc/f2");
+		// 标准循环读取格式
+		int b;// 先定义一个变量
+		while ((b = fis.read()) != -1) {// 循环遍历读取，嵌套小括号判断读出的是否为-1
+			System.out.println(b);// 循环打印
+		}
+		fis.close();
+		while (true) {
+			int s = fis.read();
+			if (s == -1) {
+				break;
+			}
+			System.out.println(s);
+		}
+	}
+}

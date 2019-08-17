@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Test2.java&apos; to &apos;day1501_查找图片/src/day1501&apos;&#x0D;&#x0A;- Original project: &apos;day13作业&apos;&#x0D;&#x0A;- Destination element: &apos;day1501_查找图片/src/day1501&apos;&#x0D;&#x0A;- Original element: &apos;day13查找文件夹中所有的图片文件.Test2.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=day1501_查找图片/src&lt;day1501" element1="/src&lt;day13查找文件夹中所有的图片文件{Test2.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1555900571972" units="1" version="1.0"/>
+</session>

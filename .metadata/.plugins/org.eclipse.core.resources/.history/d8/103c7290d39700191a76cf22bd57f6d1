@@ -1,0 +1,24 @@
+package week01_test;
+
+public class Test01 {
+	public static void main(String[] args) {
+		char a = 27426, b = 36814, c = 26469, d = 21040, e = 36798, f = 20869;
+		System.out.print(a + "" + b + "" + c + "" + d + "" + e + "" + f);
+		
+		
+		1 Public static void main（String[] args） 02 { 03   double 数字=27； 04   数字 %=-3d; 05   数字 +=10f; 06   数字 *=-4； 07   System.out.println（数字）；  08 } 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;iterator&apos; in &apos;day1005.Test1.main(...)&apos; to &apos;it&apos;&#x0D;&#x0A;- Original project: &apos;day1005_ArrayList&apos;&#x0D;&#x0A;- Original element: &apos;day1005.Test1.main(String[]).iterator&apos;&#x0D;&#x0A;- Renamed element: &apos;iterator&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;iterator&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;day1005{Test1.java[Test1~main~\[QString;@iterator!1203!1237!1212!1219!QIterator;!0!false" name="it" references="true" stamp="1555643143440" version="1.0"/>
+</session>

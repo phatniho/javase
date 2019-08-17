@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void copyfile(File f1, File t1, int pw) throws FileNotFoundException, IOException &apos; from &apos;day14_文件夹加密复制.Test1.copy()&apos; to &apos;day14_文件夹加密复制.Test1&apos;&#x0D;&#x0A;- Original project: &apos;day14作业&apos;&#x0D;&#x0A;- Method name: &apos;copyfile&apos;&#x0D;&#x0A;- Destination type: &apos;day14_文件夹加密复制.Test1&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;copyfile&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;day14_文件夹加密复制{Test1.java" name="copyfile" replace="false" selection="1288 423" stamp="1555726195777" version="1.0" visibility="1"/>
+</session>

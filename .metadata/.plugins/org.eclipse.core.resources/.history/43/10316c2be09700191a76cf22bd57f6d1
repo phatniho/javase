@@ -1,0 +1,18 @@
+package week01_test;
+
+
+public class Test01 {
+	int i = 25;
+	public static void main(String[] args) {
+		Object1 obj = new Object1();
+		{
+			int i = 5;}{
+				
+			}
+			class Object1{
+				
+			}
+			
+		}
+	}
+}

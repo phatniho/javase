@@ -1,0 +1,50 @@
+package day0601;
+
+import java.util.Random;
+
+/*
+ * –Ë«Û£∫”¢–€¿‡
+ *  Ù–‘£∫
+ * ±‡∫≈id£∫
+ * π•ª˜attack£∫
+ * ∑¿”˘defence£∫
+ * ÀŸ∂»speed£∫
+ * —™¡øblood£∫
+ * 
+ */
+public class Hero {
+	String name;
+	int attack;
+	int defence;
+	int speed;
+	int blood;
+
+	public Hero(String name) {
+		this.name = name;
+		this.attack = 60 + new Random().nextInt(40);
+		this.defence = 60 + new Random().nextInt(40);
+		this.speed = 60 + new Random().nextInt(40);
+		this.blood = 60 + new Random().nextInt(40);
+	}
+
+	public void show() {
+		System.out.println("”¢–€ Ù–‘£∫");
+		System.out.println("≥∆∫≈£∫" + this.name);
+		int[] a = new int[4];
+		a[0] = this.attack;
+		a[1] = this.defence;
+		a[2] = this.speed;
+		a[3] = this.blood;
+		for (int i = 0; i < a.length; i++) {
+			if (a[i] >= 90) {
+				String s = "s";
+			} else if (a[i] >= 80) {
+				String s = "s";
+			} else if (a[i] >= 70) {
+				String s = "s";
+			} else {
+				String s = "s";
+			}
+		}
+	}
+}

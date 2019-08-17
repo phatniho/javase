@@ -1,0 +1,13 @@
+package week01_test;
+
+public class Test01 {
+	public static void main(String[] args) {
+
+		System.out.println('欢' + 0);
+		System.out.println('迎' + 0);
+		System.out.println('来' + 0);
+		System.out.println('到' + 0);
+		System.out.println('达' + 0);
+		System.out.println('内' + 0);
+	}
+}

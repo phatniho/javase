@@ -1,0 +1,23 @@
+package day0703;
+
+import java.util.Scanner;
+
+public class Test1 {
+	public static void main(String[] args) {
+		System.out.println("1.猫");
+		System.out.println("2.狗");
+		System.out.print("选择：>");
+		int i = new Scanner(System.in).nextInt();
+
+		System.out.print("给宠物起个名：");
+		String s = new Scanner(System.in).nextLine();
+
+		Cat cat = null;
+		Dog dog = null;
+		if (i == 1) {
+			cat = new Cat(s);
+		} else if (i == 2) {
+			dog = new Dog(s);
+		}
+	}
+}

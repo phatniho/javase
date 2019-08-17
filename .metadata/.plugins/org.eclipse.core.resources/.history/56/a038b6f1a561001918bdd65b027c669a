@@ -1,0 +1,13 @@
+package day1303;
+
+import java.io.FileInputStream;
+
+public class Test3 {
+	public static void main(String[] args) throws Exception {
+		FileInputStream fis = new FileInputStream("d:/abc/f2");
+		byte[] b = new byte[5];
+		fis.read(b);
+		System.out.println(b.toString());
+		fis.close();
+	}
+}

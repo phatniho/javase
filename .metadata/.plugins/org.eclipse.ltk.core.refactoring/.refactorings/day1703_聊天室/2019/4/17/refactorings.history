@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;s&apos; from expression &apos;new Socket(&quot;176.202.1.68&quot;,8000)&apos;&#x0D;&#x0A;- Original project: &apos;day1703_聊天室&apos;&#x0D;&#x0A;- Variable name: &apos;s&apos;&#x0D;&#x0A;- Destination method: &apos;day1703.ChatClient.launch()&apos;&#x0D;&#x0A;- Variable expression: &apos;new Socket(&quot;176.202.1.68&quot;,8000)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;s&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;day1703{ChatClient.java" name="s" replace="true" selection="115 0" stamp="1556091030092" varType="false" version="1.0"/>
+</session>
